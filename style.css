@@ -1,0 +1,21 @@
+
+.show-content img{
+    transition: all .3s;
+}
+.show-content.show p{
+    display: block;
+}
+.show-content.show img{
+    transform: rotate(-180deg);
+}
+
+/*  */
+.services img {
+    width: 100px;
+    height: 100px;
+    transition: width .3s, height .3s;
+}
+.services img:hover {
+    width: 150px;
+    height: 150px;
+}
